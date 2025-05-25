@@ -66,12 +66,11 @@ User A             Firebase (Signaling)             User B
     Run on a real device (camera & microphone access required).
 
 ### 🖼️ Screenshots
-![24335]()
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5b8fb503-acee-411a-b8ed-ac4414a1e9c0" alt="Screenshot 1" width="30%" style="margin-right: 50px;" style="left: 50px;"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/user-attachments/assets/08d18076-9e76-4f18-8c7f-9f0fe438896f" alt="Screenshot 2" width="30%" style="margin-right: 50px;" style="left: 50px;" />
+  <img src="https://github.com/user-attachments/assets/77813710-0cc9-4bd1-b4f6-2dfbf3d5f53f" alt="Screenshot 2" width="30%" style="margin-right: 50px;" style="left: 50px;" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/1015d12f-fce6-4eec-b3b4-6d671429dcf1" alt="Screenshot 3" width="30%" style="margin-right: 10px;" style="left: 50px;" />
 </p>
