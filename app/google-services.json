@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "829511269961",
+    "firebase_url": "https://kaze-ee397-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kaze-ee397",
+    "storage_bucket": "kaze-ee397.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829511269961:android:02b027a8d3bdd8e8514998",
+        "android_client_info": {
+          "package_name": "com.sp45.kaze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmt1SbJE_1m1d1w5RfKv5lZX5OBjodTyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

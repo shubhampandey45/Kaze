@@ -1,8 +1,8 @@
 package com.sp45.kaze.di
 
-import com.google.firebase.Firebase
+import android.content.Context
+import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.core.Context
 import com.google.gson.Gson
 import dagger.Module
 import dagger.Provides
@@ -15,11 +15,14 @@ import dagger.hilt.components.SingletonComponent
 class AppModule {
 
     @Provides
-    fun provideContext(@ApplicationContext context: android.content.Context): android.content.Context = context.applicationContext
+    fun provideContext(@ApplicationContext context: Context) : Context = context.applicationContext
 
     @Provides
     fun provideGson(): Gson = Gson()
 
     @Provides
-    fun provideDatabaseInstance(): FirebaseDatabase = FirebaseDatabase.getInstance()
+    fun provideDataBaseInstance(): FirebaseDatabase = FirebaseDatabase.getInstance()
+
+    @Provides
+    fun provideDatabaseReference(db:FirebaseDatabase): DatabaseReference = db.reference
 }
